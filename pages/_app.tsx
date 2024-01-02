@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThirdwebProvider 
       activeChain={ChainId.Bitrock}>
+      clientId="830895eacab7ee300e6fe20e41542694"
       <Component {...pageProps} />
     </ThirdwebProvider>
 
