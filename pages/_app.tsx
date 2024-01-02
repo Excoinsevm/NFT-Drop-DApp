@@ -1,12 +1,12 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import { Bitrock } from "@thirdweb-dev/chains";
-import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
+import { ThirdwebSDK } from "@thirdweb-dev/sdk";
 
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider desiredChainId={ChainId.Bitrock}>
+    <ThirdwebProvider activeChain={ChainId.Bitrock}>
       <Component {...pageProps} />
     </ThirdwebProvider>
 
