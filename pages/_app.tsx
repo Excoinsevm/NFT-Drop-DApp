@@ -1,5 +1,6 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
+import { Bitrock } from "@thirdweb-dev/chains";
 import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
 
 
