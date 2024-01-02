@@ -18,11 +18,11 @@ const Home = ({ collections }: Props) => {
       </Head>
 
       <h1 className='mb-10 text-4xl font-extralight'>
-        The{' '}
+        NFT{' '}
         <span className='font-extrabold underline decoration-pink-600/50'>
-          NFT
+          Drop's
         </span>{' '}
-        Market Place
+        on Bitrock
       </h1>
 
 
