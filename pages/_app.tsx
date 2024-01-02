@@ -6,7 +6,8 @@ import { ThirdwebSDK } from "@thirdweb-dev/sdk";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThirdwebProvider activeChain={ChainId.Bitrock}>
+    <ThirdwebProvider 
+      activeChain={ChainId.Bitrock}>
       <Component {...pageProps} />
     </ThirdwebProvider>
 
